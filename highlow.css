@@ -1,0 +1,51 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-size: 1.2em;
+    background: url('background-1143869_1920.jpg');
+}
+
+#container {
+    /*keeps container from being full width of page*/
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background:#EF6366;
+    opacity: 0.92;
+}
+
+h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+.panel {
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+}
+
+button {
+    background: #eee; 
+    height: 3em;
+    width: 80%;
+    margin-bottom: 1.5em;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+input {
+    border-radius: 10px;
+    width: 80%;
+    height: 4em; 
+    text-align: center;
+}
+
+.activeButton {
+    background:rgb(136, 245, 234);
+}
